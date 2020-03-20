@@ -1,0 +1,25 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 70px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: #ECF0F1;
+    color: #2C3E50;
+}
+
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
