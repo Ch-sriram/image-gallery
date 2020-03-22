@@ -23,3 +23,48 @@ h1 {
 .navbar-inverse .navbar-brand {
     color: white;
 }
+
+.github-icon {
+    position: fixed;
+    z-index: 99 !important;
+    border: 5rem;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    padding: 1.5rem;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    color: #000;
+    text-decoration: none;
+    /* filter: invert(100%); */
+    line-height: 0.5rem;
+}
+
+.github-icon:active {
+    transform: translateY(2px);
+}
+
+.github-icon:focus { outline: none; }
+
+.github-icon:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.github-icon:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#github-text {
+    font-size: 1rem;
+    text-align: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-family: monospace;
+}
